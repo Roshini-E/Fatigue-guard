@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FatigueGuard — Driver Drowsiness Monitoring</title>
+  <meta name="description" content="Webcam-based driver fatigue detection: EAR calibration, PERCLOS, microsleep & head-posture tracking, wake-up siren and automatic emergency-contact email alerts.">
+  <link rel="icon" href="{{ url_for('static', filename='logo.svg') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400..700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: { extend: {
+        fontFamily: { sans: ['Geist', 'ui-sans-serif', 'system-ui', 'sans-serif'], mono: ['"Geist Mono"', 'ui-monospace', 'monospace'] },
+        colors: { background: '#0a0a0a', foreground: '#fafafa', destructive: '#ff6467', muted: '#27272a' },
+        keyframes: { scanline: { '0%': { top: '0%' }, '100%': { top: '100%' } } },
+      } },
+    }
+  </script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+</head>
+<body class="antialiased bg-zinc-950 text-foreground font-sans">
+  <div id="root"></div>
+  <div id="toasts" aria-live="polite"></div>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,1077 @@
+{
+ "drivers": [
+  {
+   "driver_id": "driver1",
+   "name": "driver1",
+   "updated_at": "2026-11-05T12:14:21"
+  },
+  {
+   "driver_id": "5064ed502d074843b12ed2e62a7baeed",
+   "name": "5064ed502d074843b12ed2e62a7baeed",
+   "updated_at": "2026-11-05T12:20:10"
+  }
+ ],
+ "accountVehicles": [
+  {
+   "vehicle_id": "36677fdac89747eb8ccf7a2227da04cf",
+   "driver_id": "5064ed502d074843b12ed2e62a7baeed",
+   "registration_number": "KA-01-AB-1234",
+   "vehicle_model": "car",
+   "created_at": "2026-11-05T12:18:17",
+   "updated_at": "2026-11-05T12:18:17"
+  }
+ ],
+ "emergencyContacts": [
+  {
+   "contact_id": "710f3424dfda4cdba6d4fdee44f8be31",
+   "driver_id": "5064ed502d074843b12ed2e62a7baeed",
+   "contact_name": "rosh",
+   "contact_email": "roshini4535@gmail.com",
+   "email_key": "roshini4535@gmail.com",
+   "relationship": "enemy",
+   "priority": "Primary",
+   "created_at": "2026-11-05T12:19:02",
+   "updated_at": "2026-11-05T12:19:02"
+  }
+ ],
+ "sessions": [
+  {
+   "id": "df1ebcd11f7e4676abed69210d1980fd",
+   "driverId": "5064ed502d074843b12ed2e62a7baeed",
+   "vehicleId": "36677fdac89747eb8ccf7a2227da04cf",
+   "startTime": "2026-11-05 12:20:09",
+   "endTime": "2026-11-05 12:22:43",
+   "status": "completed",
+   "source": "0",
+   "errorMessage": null,
+   "summaryJson": "{\"monitored_s\": 145.9227820999804, \"blinks\": 26, \"slow_blinks\": 2, \"microsleeps\": 4, \"yawns\": 0, \"head_nods\": 6, \"distractions\": 0, \"absences\": 0, \"longest_closure_s\": 22.82398960000137, \"max_risk\": 100.0, \"max_perclos\": 74.70427383056584, \"risk_time_integral\": 9359.145399638903, \"seconds_in_level\": {\"ALERT\": 8.099868800025433, \"CAUTION\": 32.76182679994963, \"WARNING\": 51.86481570004253, \"CRITICAL\": 53.196270799962804}, \"avg_risk\": 64.1, \"pct_caution_or_worse\": 94.4, \"peak_level\": \"CRITICAL\", \"ear_threshold\": 0.235, \"baseline_ear\": 0.313, \"siren_rings\": 0, \"siren_ring_s\": 0.0, \"notifications_accepted\": 0, \"notifications_delivered\": 0, \"notifications_failed\": 1, \"notifications_suppressed\": 6}"
+  },
+  {
+   "id": "2cd5588fd53147c4b28541964f26fc4f",
+   "driverId": "5064ed502d074843b12ed2e62a7baeed",
+   "vehicleId": "36677fdac89747eb8ccf7a2227da04cf",
+   "startTime": "2026-11-05 12:23:59",
+   "endTime": "2026-11-05 12:24:00",
+   "status": "failed",
+   "source": "1",
+   "errorMessage": "ERROR: could not open the camera/video. Close Zoom/Teams and try again.",
+   "summaryJson": "{}"
+  },
+  {
+   "id": "a7e812180bb04a5eaa8d2bf87d4c026a",
+   "driverId": "5064ed502d074843b12ed2e62a7baeed",
+   "vehicleId": "36677fdac89747eb8ccf7a2227da04cf",
+   "startTime": "2026-11-05 12:24:03",
+   "endTime": "2026-11-05 12:24:03",
+   "status": "failed",
+   "source": "1",
+   "errorMessage": "ERROR: could not open the camera/video. Close Zoom/Teams and try again.",
+   "summaryJson": "{}"
+  },
+  {
+   "id": "57c0cb76b1874920835611bf195bfa0b",
+   "driverId": "5064ed502d074843b12ed2e62a7baeed",
+   "vehicleId": "36677fdac89747eb8ccf7a2227da04cf",
+   "startTime": "2026-11-05 12:24:09",
+   "endTime": "2026-11-05 12:24:09",
+   "status": "failed",
+   "source": "1",
+   "errorMessage": "ERROR: could not open the camera/video. Close Zoom/Teams and try again.",
+   "summaryJson": "{}"
+  },
+  {
+   "id": "20261104-214227-driver1",
+   "driverId": "driver1",
+   "vehicleId": null,
+   "startTime": "2026-11-04 21:42:27",
+   "endTime": "2026-11-04 21:42:55.395259",
+   "status": "completed",
+   "source": "0",
+   "errorMessage": null,
+   "summaryJson": "{\"monitored_s\": 22.6, \"blinks\": 3, \"slow_blinks\": 1, \"microsleeps\": 1, \"yawns\": 0, \"head_nods\": 0, \"distractions\": 0, \"absences\": 0, \"longest_closure_s\": 1.69, \"max_risk\": 85.0, \"max_perclos\": 15.7, \"risk_time_integral\": 291.43930028890014, \"seconds_in_level\": {\"ALERT\": 18.286844499991275, \"CAUTION\": 0.5882742000394501, \"WARNING\": 2.2750473999767564, \"CRITICAL\": 1.424831099982839}, \"avg_risk\": 12.9, \"pct_caution_or_worse\": 19.0, \"peak_level\": \"CRITICAL\", \"ear_threshold\": 0.274, \"baseline_ear\": 0.365, \"siren_rings\": 1, \"siren_ring_s\": 0.0, \"notifications_accepted\": 0, \"notifications_delivered\": 0, \"notifications_failed\": 0, \"notifications_suppressed\": 0, \"schema\": \"2\", \"session_id\": \"20261104-214227-driver1\", \"started_at\": \"2026-11-04 21:42:27\", \"driver_id\": \"driver1\", \"source\": \"0\", \"duration_s\": 28.4}"
+  },
+  {
+   "id": "20261104-214403-driver1",
+   "driverId": "driver1",
+   "vehicleId": null,
+   "startTime": "2026-11-04 21:44:03",
+   "endTime": "2026-11-04 21:44:46.980069",
+   "status": "completed",
+   "source": "0",
+   "errorMessage": null,
+   "summaryJson": "{\"monitored_s\": 38.2, \"blinks\": 3, \"slow_blinks\": 3, \"microsleeps\": 1, \"yawns\": 0, \"head_nods\": 0, \"distractions\": 0, \"absences\": 0, \"longest_closure_s\": 2.86, \"max_risk\": 92.0, \"max_perclos\": 24.4, \"risk_time_integral\": 1465.1763777994197, \"seconds_in_level\": {\"ALERT\": 10.74049549998017, \"CAUTION\": 20.56006679998245, \"WARNING\": 3.3726770000648685, \"CRITICAL\": 3.5044119999511167}, \"avg_risk\": 38.4, \"pct_caution_or_worse\": 71.9, \"peak_level\": \"CRITICAL\", \"ear_threshold\": 0.213, \"baseline_ear\": 0.284, \"siren_rings\": 1, \"siren_ring_s\": 6.5, \"notifications_accepted\": 0, \"notifications_delivered\": 0, \"notifications_failed\": 0, \"notifications_suppressed\": 0, \"schema\": \"2\", \"session_id\": \"20261104-214403-driver1\", \"started_at\": \"2026-11-04 21:44:03\", \"driver_id\": \"driver1\", \"source\": \"0\", \"duration_s\": 44.0}"
+  },
+  {
+   "id": "20261104-220641-driver1",
+   "driverId": "driver1",
+   "vehicleId": null,
+   "startTime": "2026-11-04 22:06:41",
+   "endTime": "2026-11-04 22:07:07.082794",
+   "status": "completed",
+   "source": "0",
+   "errorMessage": null,
+   "summaryJson": "{\"monitored_s\": 19.6, \"blinks\": 3, \"slow_blinks\": 0, \"microsleeps\": 1, \"yawns\": 0, \"head_nods\": 1, \"distractions\": 0, \"absences\": 0, \"longest_closure_s\": 3.0, \"max_risk\": 100.0, \"max_perclos\": 0.0, \"risk_time_integral\": 496.4645650389138, \"seconds_in_level\": {\"ALERT\": 11.41152270004386, \"CAUTION\": 3.8556017999653704, \"WARNING\": 0.5437614999827929, \"CRITICAL\": 3.8179606000194326}, \"avg_risk\": 25.3, \"pct_caution_or_worse\": 41.9, \"peak_level\": \"CRITICAL\", \"ear_threshold\": 0.28, \"baseline_ear\": 0.383, \"siren_rings\": 1, \"siren_ring_s\": 0.0, \"notifications_accepted\": 0, \"notifications_delivered\": 0, \"notifications_failed\": 0, \"notifications_suppressed\": 0, \"schema\": \"2\", \"session_id\": \"20261104-220641-driver1\", \"started_at\": \"2026-11-04 22:06:41\", \"driver_id\": \"driver1\", \"source\": \"0\", \"duration_s\": 26.1}"
+  },
+  {
+   "id": "20261105-105728-driver1",
+   "driverId": "driver1",
+   "vehicleId": null,
+   "startTime": "2026-11-05 10:57:28",
+   "endTime": "2026-11-05 10:57:50.306152",
+   "status": "completed",
+   "source": "0",
+   "errorMessage": null,
+   "summaryJson": "{\"monitored_s\": 14.9, \"blinks\": 4, \"slow_blinks\": 1, \"microsleeps\": 2, \"yawns\": 0, \"head_nods\": 0, \"distractions\": 0, \"absences\": 0, \"longest_closure_s\": 3.18, \"max_risk\": 86.0, \"max_perclos\": 0.0, \"risk_time_integral\": 601.7140914920599, \"seconds_in_level\": {\"ALERT\": 5.4807031999807805, \"CAUTION\": 2.8451236999826506, \"WARNING\": 3.330138299963437, \"CRITICAL\": 3.2482647000579163}, \"avg_risk\": 40.4, \"pct_caution_or_worse\": 63.2, \"peak_level\": \"CRITICAL\", \"ear_threshold\": 0.226, \"baseline_ear\": 0.301, \"siren_rings\": 2, \"siren_ring_s\": 5.9, \"notifications_accepted\": 0, \"notifications_delivered\": 0, \"notifications_failed\": 0, \"notifications_suppressed\": 0, \"schema\": \"2\", \"session_id\": \"20261105-105728-driver1\", \"started_at\": \"2026-11-05 10:57:28\", \"driver_id\": \"driver1\", \"source\": \"0\", \"duration_s\": 22.3}"
+  },
+  {
+   "id": "20261105-113629-driver1",
+   "driverId": "driver1",
+   "vehicleId": null,
+   "startTime": "2026-11-05 11:36:29",
+   "endTime": "2026-11-05 11:36:38.354932",
+   "status": "completed",
+   "source": "0",
+   "errorMessage": null,
+   "summaryJson": "{\"monitored_s\": 3.1, \"blinks\": 2, \"slow_blinks\": 0, \"microsleeps\": 0, \"yawns\": 0, \"head_nods\": 0, \"distractions\": 0, \"absences\": 0, \"longest_closure_s\": 0.42, \"max_risk\": 0.0, \"max_perclos\": 0.0, \"risk_time_integral\": 0.0, \"seconds_in_level\": {\"ALERT\": 3.0855212999740615, \"CAUTION\": 0.0, \"WARNING\": 0.0, \"CRITICAL\": 0.0}, \"avg_risk\": 0.0, \"pct_caution_or_worse\": 0.0, \"peak_level\": \"ALERT\", \"ear_threshold\": 0.253, \"baseline_ear\": 0.337, \"siren_rings\": 0, \"siren_ring_s\": 0.0, \"notifications_accepted\": 0, \"notifications_delivered\": 0, \"notifications_failed\": 0, \"notifications_suppressed\": 0, \"schema\": \"2\", \"session_id\": \"20261105-113629-driver1\", \"started_at\": \"2026-11-05 11:36:29\", \"driver_id\": \"driver1\", \"source\": \"0\", \"duration_s\": 9.4}"
+  },
+  {
+   "id": "20261105-113711-driver1",
+   "driverId": "driver1",
+   "vehicleId": null,
+   "startTime": "2026-11-05 11:37:11",
+   "endTime": "2026-11-05 11:37:14.947641",
+   "status": "completed",
+   "source": "0",
+   "errorMessage": null,
+   "summaryJson": "{\"monitored_s\": 0.0, \"blinks\": 0, \"slow_blinks\": 0, \"microsleeps\": 0, \"yawns\": 0, \"head_nods\": 0, \"distractions\": 0, \"absences\": 0, \"longest_closure_s\": 0.0, \"max_risk\": 0.0, \"max_perclos\": 0.0, \"risk_time_integral\": 0.0, \"seconds_in_level\": {\"ALERT\": 0.0, \"CAUTION\": 0.0, \"WARNING\": 0.0, \"CRITICAL\": 0.0}, \"avg_risk\": 0.0, \"pct_caution_or_worse\": 0.0, \"peak_level\": \"ALERT\", \"ear_threshold\": 0.21, \"baseline_ear\": \"\", \"siren_rings\": 0, \"siren_ring_s\": 0.0, \"notifications_accepted\": 0, \"notifications_delivered\": 0, \"notifications_failed\": 0, \"notifications_suppressed\": 0, \"schema\": \"2\", \"session_id\": \"20261105-113711-driver1\", \"started_at\": \"2026-11-05 11:37:11\", \"driver_id\": \"driver1\", \"source\": \"0\", \"duration_s\": 3.9}"
+  },
+  {
+   "id": "20261105-114041-driver1",
+   "driverId": "driver1",
+   "vehicleId": null,
+   "startTime": "2026-11-05 11:40:41",
+   "endTime": "2026-11-05 11:41:23.773176",
+   "status": "completed",
+   "source": "0",
+   "errorMessage": null,
+   "summaryJson": "{\"monitored_s\": 35.6, \"blinks\": 4, \"slow_blinks\": 1, \"microsleeps\": 2, \"yawns\": 0, \"head_nods\": 2, \"distractions\": 0, \"absences\": 0, \"longest_closure_s\": 5.81, \"max_risk\": 100.0, \"max_perclos\": 41.0, \"risk_time_integral\": 1937.9387260600236, \"seconds_in_level\": {\"ALERT\": 5.297621199977584, \"CAUTION\": 8.498618600016925, \"WARNING\": 11.280641600023955, \"CRITICAL\": 10.509546899993438}, \"avg_risk\": 54.5, \"pct_caution_or_worse\": 85.1, \"peak_level\": \"CRITICAL\", \"ear_threshold\": 0.211, \"baseline_ear\": 0.281, \"siren_rings\": 2, \"siren_ring_s\": 16.5, \"notifications_accepted\": 0, \"notifications_delivered\": 0, \"notifications_failed\": 0, \"notifications_suppressed\": 0, \"schema\": \"2\", \"session_id\": \"20261105-114041-driver1\", \"started_at\": \"2026-11-05 11:40:41\", \"driver_id\": \"driver1\", \"source\": \"0\", \"duration_s\": 42.8}"
+  },
+  {
+   "id": "20261105-114231-driver1",
+   "driverId": "driver1",
+   "vehicleId": null,
+   "startTime": "2026-11-05 11:42:31",
+   "endTime": "2026-11-05 11:43:36.441009",
+   "status": "completed",
+   "source": "0",
+   "errorMessage": null,
+   "summaryJson": "{\"monitored_s\": 58.3, \"blinks\": 10, \"slow_blinks\": 2, \"microsleeps\": 3, \"yawns\": 0, \"head_nods\": 0, \"distractions\": 0, \"absences\": 0, \"longest_closure_s\": 20.52, \"max_risk\": 100.0, \"max_perclos\": 64.2, \"risk_time_integral\": 4284.379063868878, \"seconds_in_level\": {\"ALERT\": 1.2320514000020921, \"CAUTION\": 15.334874199994374, \"WARNING\": 8.365156800020486, \"CRITICAL\": 33.32813059998443}, \"avg_risk\": 73.5, \"pct_caution_or_worse\": 97.9, \"peak_level\": \"CRITICAL\", \"ear_threshold\": 0.21, \"baseline_ear\": \"\", \"siren_rings\": 3, \"siren_ring_s\": 19.8, \"notifications_accepted\": 0, \"notifications_delivered\": 0, \"notifications_failed\": 0, \"notifications_suppressed\": 0, \"schema\": \"2\", \"session_id\": \"20261105-114231-driver1\", \"started_at\": \"2026-11-05 11:42:31\", \"driver_id\": \"driver1\", \"source\": \"0\", \"duration_s\": 65.4}"
+  },
+  {
+   "id": "20261105-115350-driver1",
+   "driverId": "driver1",
+   "vehicleId": null,
+   "startTime": "2026-11-05 11:53:50",
+   "endTime": "2026-11-05 11:57:05.154894",
+   "status": "completed",
+   "source": "0",
+   "errorMessage": null,
+   "summaryJson": "{\"monitored_s\": 187.6, \"blinks\": 49, \"slow_blinks\": 14, \"microsleeps\": 8, \"yawns\": 0, \"head_nods\": 1, \"distractions\": 2, \"absences\": 0, \"longest_closure_s\": 22.86, \"max_risk\": 100.0, \"max_perclos\": 67.5, \"risk_time_integral\": 11719.675083791726, \"seconds_in_level\": {\"ALERT\": 13.703174299967941, \"CAUTION\": 68.17652319994522, \"WARNING\": 38.429894000058994, \"CRITICAL\": 67.26345580001362}, \"avg_risk\": 62.5, \"pct_caution_or_worse\": 92.7, \"peak_level\": \"CRITICAL\", \"ear_threshold\": 0.261, \"baseline_ear\": 0.348, \"siren_rings\": 6, \"siren_ring_s\": 90.5, \"notifications_accepted\": 0, \"notifications_delivered\": 0, \"notifications_failed\": 0, \"notifications_suppressed\": 0, \"schema\": \"2\", \"session_id\": \"20261105-115350-driver1\", \"started_at\": \"2026-11-05 11:53:50\", \"driver_id\": \"driver1\", \"source\": \"0\", \"duration_s\": 195.2}"
+  },
+  {
+   "id": "20261105-121421-driver1",
+   "driverId": "driver1",
+   "vehicleId": null,
+   "startTime": "2026-11-05 12:14:21",
+   "endTime": "2026-11-05 12:14:27.400507",
+   "status": "completed",
+   "source": "0",
+   "errorMessage": null,
+   "summaryJson": "{\"monitored_s\": 0.3, \"blinks\": 0, \"slow_blinks\": 0, \"microsleeps\": 0, \"yawns\": 0, \"head_nods\": 0, \"distractions\": 0, \"absences\": 0, \"longest_closure_s\": 0.19, \"max_risk\": 0.0, \"max_perclos\": 0.0, \"risk_time_integral\": 0.0, \"seconds_in_level\": {\"ALERT\": 0.3205930999829434, \"CAUTION\": 0.0, \"WARNING\": 0.0, \"CRITICAL\": 0.0}, \"avg_risk\": 0.0, \"pct_caution_or_worse\": 0.0, \"peak_level\": \"ALERT\", \"ear_threshold\": 0.263, \"baseline_ear\": 0.35, \"siren_rings\": 0, \"siren_ring_s\": 0.0, \"notifications_accepted\": 0, \"notifications_delivered\": 0, \"notifications_failed\": 0, \"notifications_suppressed\": 0, \"schema\": \"2\", \"session_id\": \"20261105-121421-driver1\", \"started_at\": \"2026-11-05 12:14:21\", \"driver_id\": \"driver1\", \"source\": \"0\", \"duration_s\": 6.4}"
+  }
+ ],
+ "events": [
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "CALIBRATED",
+   "riskLevel": "ALERT",
+   "riskScore": 0.0,
+   "eventTime": "2026-11-05 12:20:17",
+   "elapsedS": 8.0,
+   "description": "open-eye EAR 0.313 -> threshold 0.235"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 86.0,
+   "eventTime": "2026-11-05 12:20:27",
+   "elapsedS": 18.0,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "CRITICAL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 86.0,
+   "eventTime": "2026-11-05 12:20:27",
+   "elapsedS": 18.0,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "CRITICAL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 75.7,
+   "eventTime": "2026-11-05 12:20:39",
+   "elapsedS": 30.0,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 100.0,
+   "eventTime": "2026-11-05 12:20:39",
+   "elapsedS": 30.0,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "HEAD_NOD",
+   "riskLevel": "CRITICAL",
+   "riskScore": 100.0,
+   "eventTime": "2026-11-05 12:20:41",
+   "elapsedS": 32.0,
+   "description": "head down -18 deg"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "HEAD_NOD",
+   "riskLevel": "CRITICAL",
+   "riskScore": 100.0,
+   "eventTime": "2026-11-05 12:20:54",
+   "elapsedS": 45.0,
+   "description": "head down -25 deg"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "HEAD_NOD",
+   "riskLevel": "CRITICAL",
+   "riskScore": 76.2,
+   "eventTime": "2026-11-05 12:21:04",
+   "elapsedS": 55.0,
+   "description": "head down -24 deg"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "HEAD_NOD",
+   "riskLevel": "WARNING",
+   "riskScore": 61.0,
+   "eventTime": "2026-11-05 12:21:08",
+   "elapsedS": 59.0,
+   "description": "head down -22 deg"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "HEAD_NOD",
+   "riskLevel": "WARNING",
+   "riskScore": 55.0,
+   "eventTime": "2026-11-05 12:21:33",
+   "elapsedS": 84.0,
+   "description": "head down -20 deg"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "HEAD_NOD",
+   "riskLevel": "CRITICAL",
+   "riskScore": 76.8,
+   "eventTime": "2026-11-05 12:21:54",
+   "elapsedS": 105.0,
+   "description": "head down -18 deg"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "CRITICAL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 76.8,
+   "eventTime": "2026-11-05 12:21:54",
+   "elapsedS": 105.0,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 100.0,
+   "eventTime": "2026-11-05 12:21:55",
+   "elapsedS": 106.0,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "df1ebcd11f7e4676abed69210d1980fd",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 100.0,
+   "eventTime": "2026-11-05 12:21:59",
+   "elapsedS": 110.0,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261104-214227-driver1",
+   "eventType": "CALIBRATED",
+   "riskLevel": "ALERT",
+   "riskScore": 0.0,
+   "eventTime": "2026-11-04 21:42:32.820261",
+   "elapsedS": 5.820261,
+   "description": "open-eye EAR 0.365 -> threshold 0.274"
+  },
+  {
+   "sessionId": "20261104-214227-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CAUTION",
+   "riskScore": 33.0,
+   "eventTime": "2026-11-04 21:42:51.161458",
+   "elapsedS": 24.161458,
+   "description": "ALERT -> CAUTION"
+  },
+  {
+   "sessionId": "20261104-214227-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-04 21:42:51.715216",
+   "elapsedS": 24.715216,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261104-214227-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-04 21:42:51.846319",
+   "elapsedS": 24.846319,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261104-214227-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-04 21:42:51.846319",
+   "elapsedS": 24.846319,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261104-214403-driver1",
+   "eventType": "CALIBRATED",
+   "riskLevel": "ALERT",
+   "riskScore": 0.0,
+   "eventTime": "2026-11-04 21:44:08.802418",
+   "elapsedS": 5.802418,
+   "description": "open-eye EAR 0.284 -> threshold 0.213"
+  },
+  {
+   "sessionId": "20261104-214403-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CAUTION",
+   "riskScore": 33.0,
+   "eventTime": "2026-11-04 21:44:13.620873",
+   "elapsedS": 10.620873,
+   "description": "ALERT -> CAUTION"
+  },
+  {
+   "sessionId": "20261104-214403-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-04 21:44:14.258477",
+   "elapsedS": 11.258477,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261104-214403-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-04 21:44:14.627349",
+   "elapsedS": 11.627349,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261104-214403-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-04 21:44:14.627349",
+   "elapsedS": 11.627349,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261104-214403-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CAUTION",
+   "riskScore": 33.0,
+   "eventTime": "2026-11-04 21:44:30.332216",
+   "elapsedS": 27.332216,
+   "description": "ALERT -> CAUTION"
+  },
+  {
+   "sessionId": "20261104-220641-driver1",
+   "eventType": "CALIBRATED",
+   "riskLevel": "ALERT",
+   "riskScore": 0.0,
+   "eventTime": "2026-11-04 22:06:47.453947",
+   "elapsedS": 6.453947,
+   "description": "open-eye EAR 0.383 -> threshold 0.280"
+  },
+  {
+   "sessionId": "20261104-220641-driver1",
+   "eventType": "HEAD_NOD",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-04 22:06:58.895271",
+   "elapsedS": 17.895271,
+   "description": "head down -37 deg"
+  },
+  {
+   "sessionId": "20261104-220641-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CAUTION",
+   "riskScore": 33.0,
+   "eventTime": "2026-11-04 22:06:58.895271",
+   "elapsedS": 17.895271,
+   "description": "ALERT -> CAUTION"
+  },
+  {
+   "sessionId": "20261104-220641-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-04 22:07:02.766748",
+   "elapsedS": 21.766748,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261104-220641-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-04 22:07:03.308553",
+   "elapsedS": 22.308553,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261104-220641-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-04 22:07:03.413142",
+   "elapsedS": 22.413142,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-105728-driver1",
+   "eventType": "CALIBRATED",
+   "riskLevel": "ALERT",
+   "riskScore": 0.0,
+   "eventTime": "2026-11-05 10:57:35.401922",
+   "elapsedS": 7.401922,
+   "description": "open-eye EAR 0.301 -> threshold 0.226"
+  },
+  {
+   "sessionId": "20261105-105728-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CAUTION",
+   "riskScore": 33.0,
+   "eventTime": "2026-11-05 10:57:40.916197",
+   "elapsedS": 12.916197,
+   "description": "ALERT -> CAUTION"
+  },
+  {
+   "sessionId": "20261105-105728-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 10:57:41.481024",
+   "elapsedS": 13.481024,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-105728-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 10:57:41.568351",
+   "elapsedS": 13.568351,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-105728-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 10:57:41.568351",
+   "elapsedS": 13.568351,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-105728-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 10:57:49.827091",
+   "elapsedS": 21.827091,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-105728-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 10:57:50.042369",
+   "elapsedS": 22.042369,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-105728-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 10:57:50.042369",
+   "elapsedS": 22.042369,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-113629-driver1",
+   "eventType": "CALIBRATED",
+   "riskLevel": "ALERT",
+   "riskScore": 0.0,
+   "eventTime": "2026-11-05 11:36:35.269410",
+   "elapsedS": 6.26941,
+   "description": "open-eye EAR 0.337 -> threshold 0.253"
+  },
+  {
+   "sessionId": "20261105-114041-driver1",
+   "eventType": "CALIBRATED",
+   "riskLevel": "ALERT",
+   "riskScore": 0.0,
+   "eventTime": "2026-11-05 11:40:48.186748",
+   "elapsedS": 7.186748,
+   "description": "open-eye EAR 0.281 -> threshold 0.211"
+  },
+  {
+   "sessionId": "20261105-114041-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CAUTION",
+   "riskScore": 33.0,
+   "eventTime": "2026-11-05 11:40:52.742986",
+   "elapsedS": 11.742986,
+   "description": "ALERT -> CAUTION"
+  },
+  {
+   "sessionId": "20261105-114041-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CAUTION",
+   "riskScore": 33.0,
+   "eventTime": "2026-11-05 11:40:56.427625",
+   "elapsedS": 15.427625,
+   "description": "ALERT -> CAUTION"
+  },
+  {
+   "sessionId": "20261105-114041-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:40:57.070320",
+   "elapsedS": 16.07032,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-114041-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:40:57.303559",
+   "elapsedS": 16.303559,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-114041-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:40:57.303559",
+   "elapsedS": 16.303559,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-114041-driver1",
+   "eventType": "HEAD_NOD",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:41:03.980923",
+   "elapsedS": 22.980923,
+   "description": "head down -17 deg"
+  },
+  {
+   "sessionId": "20261105-114041-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:41:10.953706",
+   "elapsedS": 29.953706,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-114041-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:41:14.716573",
+   "elapsedS": 33.716573,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-114041-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:41:15.025727",
+   "elapsedS": 34.025727,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-114041-driver1",
+   "eventType": "HEAD_NOD",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:41:18.325978",
+   "elapsedS": 37.325978,
+   "description": "head down -21 deg"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "CALIBRATED",
+   "riskLevel": "CAUTION",
+   "riskScore": 33.0,
+   "eventTime": "2026-11-05 11:42:38.180796",
+   "elapsedS": 7.180796,
+   "description": "eyes looked closed during calibration (EAR 0.112) - using default threshold 0.210"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CAUTION",
+   "riskScore": 33.0,
+   "eventTime": "2026-11-05 11:42:39.088512",
+   "elapsedS": 8.088512,
+   "description": "ALERT -> CAUTION"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:42:39.651109",
+   "elapsedS": 8.651109,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:42:39.729023",
+   "elapsedS": 8.729023,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:42:39.729023",
+   "elapsedS": 8.729023,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CAUTION",
+   "riskScore": 33.0,
+   "eventTime": "2026-11-05 11:42:52.735710",
+   "elapsedS": 21.73571,
+   "description": "ALERT -> CAUTION"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:42:55.464707",
+   "elapsedS": 24.464707,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:42:55.693743",
+   "elapsedS": 24.693743,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:42:55.693743",
+   "elapsedS": 24.693743,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:43:09.973944",
+   "elapsedS": 38.973944,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:43:16.367829",
+   "elapsedS": 45.367829,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:43:16.945882",
+   "elapsedS": 45.945882,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-114231-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:43:17.361741",
+   "elapsedS": 46.361741,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "CALIBRATED",
+   "riskLevel": "ALERT",
+   "riskScore": 0.0,
+   "eventTime": "2026-11-05 11:53:57.581847",
+   "elapsedS": 7.581847,
+   "description": "open-eye EAR 0.348 -> threshold 0.261"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CAUTION",
+   "riskScore": 33.0,
+   "eventTime": "2026-11-05 11:54:11.357110",
+   "elapsedS": 21.35711,
+   "description": "ALERT -> CAUTION"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:54:11.933641",
+   "elapsedS": 21.933641,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:54:12.007979",
+   "elapsedS": 22.007979,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:54:12.007979",
+   "elapsedS": 22.007979,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "DISTRACTION",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:54:50.005847",
+   "elapsedS": 60.005847,
+   "description": "looking away 31 deg"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:54:50.005847",
+   "elapsedS": 60.005847,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:54:52.525659",
+   "elapsedS": 62.525659,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:54:52.943093",
+   "elapsedS": 62.943093,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:55:04.490708",
+   "elapsedS": 74.490708,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:55:05.096126",
+   "elapsedS": 75.096126,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:55:06.284077",
+   "elapsedS": 76.284077,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:55:08.859625",
+   "elapsedS": 78.859625,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:55:09.477352",
+   "elapsedS": 79.477352,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:55:17.577008",
+   "elapsedS": 87.577008,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:55:19.720702",
+   "elapsedS": 89.720702,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:55:23.710702",
+   "elapsedS": 93.710702,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:55:34.435392",
+   "elapsedS": 104.435392,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:55:45.652958",
+   "elapsedS": 115.652958,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "DISTRACTION",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:55:47.329475",
+   "elapsedS": 117.329475,
+   "description": "looking away 46 deg"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:55:47.329475",
+   "elapsedS": 117.329475,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "HEAD_NOD",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:55:47.649984",
+   "elapsedS": 117.649984,
+   "description": "head down -19 deg"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:55:47.649984",
+   "elapsedS": 117.649984,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:55:57.413878",
+   "elapsedS": 127.413878,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:55:57.795729",
+   "elapsedS": 127.795729,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:55:58.397856",
+   "elapsedS": 128.397856,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:56:10.732667",
+   "elapsedS": 140.732667,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:56:13.125117",
+   "elapsedS": 143.125117,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:56:37.200735",
+   "elapsedS": 167.200735,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:56:45.240266",
+   "elapsedS": 175.240266,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "WARNING",
+   "riskScore": 66.0,
+   "eventTime": "2026-11-05 11:56:54.728960",
+   "elapsedS": 184.72896,
+   "description": "CAUTION -> WARNING"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "LEVEL",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:56:55.169066",
+   "elapsedS": 185.169066,
+   "description": "WARNING -> CRITICAL"
+  },
+  {
+   "sessionId": "20261105-115350-driver1",
+   "eventType": "MICROSLEEP",
+   "riskLevel": "CRITICAL",
+   "riskScore": 99.0,
+   "eventTime": "2026-11-05 11:56:55.699641",
+   "elapsedS": 185.699641,
+   "description": "eyes closed 1.5s+"
+  },
+  {
+   "sessionId": "20261105-121421-driver1",
+   "eventType": "CALIBRATED",
+   "riskLevel": "ALERT",
+   "riskScore": 0.0,
+   "eventTime": "2026-11-05 12:14:27.079914",
+   "elapsedS": 6.079914,
+   "description": "open-eye EAR 0.350 -> threshold 0.263"
+  }
+ ]
+}
